@@ -1,0 +1,3 @@
+Βλέπουμε ότι το riddle κάνει stall στο challenge 2, και σύμφωνα με το hint, περιμένει κάποιο kill. 
+strace2, γραμμή 123, βλέπουμε sigaction που αλλάζει την συμπεριφορά κατά την λήψη SIGCONT και SIGALRM.
+Μέσω του challenge2.c στέλνουμε ένα σήμα SIGCONT σε μια διεργασία παιδί που τρέχει το riddle.

@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.djt": "django-html",
+        "*.txt": "plaintext",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "kernel.h": "c"
+    }
+}

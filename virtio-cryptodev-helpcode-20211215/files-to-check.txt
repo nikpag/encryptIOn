@@ -1,0 +1,8 @@
+cryptodev/crypto-test.c 191 vs 209
+sockets/socket-client.c 125 vs 264
+sockets/socket-server.c 128 vs 287
+virtio-crypto/guest/crypto-chrdev.c 309 vs 462
+virtio-crypto/guest/crypto-module.c 175 vs 175
+virtio-crypto/guest/test_crypto.c 157 vs 186
+virtio-crypto/guest/test_fork_crypto.c 167 vs 167
+

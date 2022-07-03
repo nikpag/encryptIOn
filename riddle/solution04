@@ -1,0 +1,7 @@
+strace4, γραμμή 127, (No such file or directory), και με βάση το hint "mkfifo, named pipe" αυτό το αρχείο πρέπει να είναι named pipe.
+
+Άρα θέλει να φτιάξω ένα named pipe με όνομα magic_mirror
+
+Οπότε κάνουμε:
+
+mkfifo magic_mirror

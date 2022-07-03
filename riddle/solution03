@@ -1,0 +1,2 @@
+ltrace3, γραμμή 20, το getenv(ANSWER) επιστρέφει nil.
+Οπότε κάνουμε export ANSWER=42 (η απάντηση σε όλα)

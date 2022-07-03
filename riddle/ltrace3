@@ -1,0 +1,31 @@
+time(0)                                                                                           = 1636537111
+srand(0x618b9317, 0x7fffea6d5448, 0x7fffea6d5458, 0x5558a5166cd0)                                 = 0
+signal(SIGURG, 0x5558a5166b80)                                                                    = 0
+fprintf(0x7fda220a15c0, "\nChallenge %3d: '%s'\n", 0, "Hello there")                              = 30
+getlogin_r(0x5558a536a800, 64, 0, 0)                                                              = 0
+open("riddle.savegame", 66, 0600)                                                                 = 3
+ftruncate(3, 779)                                                                                 = 0
+mmap(0, 779, 3, 1)                                                                                = 0x7fda220fd000
+memcmp(0x7fda220fd000, 0x5558a536a7a0, 40, 0x7fda21fd0a46)                                        = 0
+fwrite("\033[36mWelcome back challenger. Yo"..., 1, 48, 0x7fda220a15c0)                           = 48
+fprintf(0x7fda220a15c0, "\nChallenge %3d: '%s'\n", 1, "Gatekeeper")                               = 29
+memcmp(0x7fda220fd029, 0x5558a536a7a0, 40, 20)                                                    = 0
+fwrite("\033[36mWelcome back challenger. Yo"..., 1, 48, 0x7fda220a15c0)                           = 48
+fprintf(0x7fda220a15c0, "\nChallenge %3d: '%s'\n", 2, "A time to kill")                           = 33
+memcmp(0x7fda220fd052, 0x5558a536a7a0, 40, 20)                                                    = 0
+fwrite("\033[36mWelcome back challenger. Yo"..., 1, 48, 0x7fda220a15c0)                           = 48
+fprintf(0x7fda220a15c0, "\nChallenge %3d: '%s'\n", 3, "what is the answer to life the u"...)      = 74
+memcmp(0x7fda220fd07b, 0x5558a536a7a0, 40, 20)                                                    = 0xffffffbd
+fprintf(0x7fda220a15c0, "Hint:          '%s'.\n", "ltrace")                                       = 25
+getenv("ANSWER")                                                                                  = nil
+fprintf(0x7fda220a15c0, "\033[31m%s\033[0m\n", "FAIL")                                            = 14
+fprintf(0x7fda220a15c0, "\nChallenge %3d: '%s'\n", 4, "First-in, First-out")                      = 38
+memcmp(0x7fda220fd0a4, 0x5558a536a7a0, 40, 20)                                                    = 0xffffffca
+getenv("I_HATE_GAME_HINTS")                                                                       = nil
+fprintf(0x7fda220a15c0, "Hint:          '%s'.\n", "Mirror, mirror on the wall, who "...)          = 82
+getenv("I_NEED_TECH_HINTS")                                                                       = nil
+open("magic_mirror", 2, 024505466657)                                                             = -1
+fprintf(0x7fda220a15c0, "\033[31m%s\033[0m\n", "I cannot see my reflection. FAIL"...)             = 42
+fwrite("\nNext challenge locked. Complete"..., 1, 50, 0x7fda220a15c0)                             = 50
+exit(1 <no return ...>
++++ exited (status 1) +++
