@@ -10,7 +10,7 @@ First of all, let me finish. Second, I've also made a non-virtualized version ju
 
 ![](assets/matrix.gif)
 
-That means the system calls that use hardware-assisted encryption can be offloaded to the actual hardware, and not everything has to be virtualized. So it's still super fast 🔥
+This way, the system calls that use hardware-assisted encryption can be offloaded to the actual hardware, and not everything has to be virtualized. So it's still super fast 🔥
 
 This is made possible by a custom virtIO driver for the chat.
 
