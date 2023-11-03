@@ -1,6 +1,6 @@
 # encryptIOn
 
-Netcat is a simple and super cool program. You just specify a listening port, then connect to it, then write some stuff over the network. It feels like magic ✨
+`netcat` is a simple and super cool program. You just specify a listening port, then connect to it, then write some stuff over the network. It feels like magic ✨
 
 But what would you say if I told you that you can have an *encrypted* version of netcat that uses hardware-assisted encryption, and can run on virtual machines?
 
